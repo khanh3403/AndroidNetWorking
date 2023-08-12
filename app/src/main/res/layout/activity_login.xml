@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:orientation="vertical"
+    tools:context=".Activity.LoginActivity">
+    <TextView
+        android:gravity="center"
+        android:text="LOGIN NOW"
+        android:textSize="50dp"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edt_phone"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/signup_login_edt_bg"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:textSize="18dp"
+        android:layout_width="300dp"/>
+    <EditText
+        android:id="@+id/edt_Pass"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/signup_login_edt_bg"
+        android:hint="Password"
+        android:inputType="phone"
+        android:textSize="18dp"
+        android:layout_width="300dp"/>
+
+    <CheckBox
+        android:id="@+id/chk_remember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="16dp"
+        android:text="Remember password"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:background="@drawable/signup_login_bg"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginStart="60dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Register a new account?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/tv_SignUp"
+            android:text="Sign Up"
+            android:layout_marginLeft="5dp"
+            android:textColor="#E80F3A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "17545000372",
+    "project_id": "quanlibanhang-fb8c4",
+    "storage_bucket": "quanlibanhang-fb8c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17545000372:android:ba4e6ac62f29c755392ee1",
+        "android_client_info": {
+          "package_name": "com.example.asmagile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "17545000372-b1akcekqqu69g438svk0i0ptiko8uk9a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asmagile",
+            "certificate_hash": "d8f47ae21a6c159d6d7c24005bba7b9babc7560c"
+          }
+        },
+        {
+          "client_id": "17545000372-3a1l2b8flv2n4u7omrqts09jjhc0v93n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU4pdiTi34Kf93qcmwtCjyxZWhcgOCGu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "17545000372-3a1l2b8flv2n4u7omrqts09jjhc0v93n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
